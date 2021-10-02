@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.headroom {
+    will-change: transform;
+    transition: transform 200ms linear;
+}
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+
+@layer components {
+
+    .theme {
+        @apply fill-current h-8 w-8 absolute text-gray-900 dark:text-gray-100;
+    }
+
+    .nav-link {
+        @apply mt-4 flex items-center justify-center text-4xl md:text-5xl lg:text-7xl text-gray-50 dark:text-gray-900;
+    }
+
+    .menu {
+        @apply flex items-center justify-center absolute h-full w-full;
+    }
+
+    .text-menu {
+        @apply text-center font-light text-sm text-gray-50 dark:text-gray-900;
+    }
+
+    .footer-menu {
+        @apply fixed bottom-0 w-screen mb-5 h-10 flex items-center justify-center;
+    }
+
+}
