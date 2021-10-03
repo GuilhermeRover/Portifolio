@@ -1,29 +1,29 @@
 <div>
     {{-- Navbar --}}
     <nav class="headroom headroom--pinned fixed w-full z-10 top-0 bg-transparent" id="header" x-on:click.away="Lang = false;">
-        <div class="navbar">
+        <div class="nav-target">
             <div class="flex items-center justify-between">
                 <div class="ml-6 md:ml-20 lg:ml-40 xl:ml-60 flex items-center justify-center">
                     <img class="logo h-20" src="{{asset('images/logo3.png')}}" alt="{{__('Logo')}}">
                 </div>
                 <div class="mr-6 md:mr-20 lg:mr-40 xl:mr-60 flex items-center justify-center">
                     <div class="nav-btn flex items-center justify-center mr-10 cursor-pointer" @click="dark = !dark, change()">
-                        <box-icon name='sun' class="theme" x-show="dark" x-transition.duration.300ms></box-icon>
-                        <box-icon name='moon' class="theme" x-show="!dark" x-transition.duration.300ms></box-icon>
+                        <box-icon name='sun' class="theme dark:hover:animate-pulse" x-show="dark" x-transition.duration.300ms></box-icon>
+                        <box-icon name='moon' class="theme dark:hover:animate-pulse" x-show="!dark" x-transition.duration.300ms></box-icon>
                     </div>
-                    <box-icon name='menu-alt-right' class="fill-current h-10 w-10 cursor-pointer text-gray-900 dark:text-gray-100 transition duration-1000" x-show="!Menu" @click="Menu = true"></box-icon>
+                    <box-icon name='menu-alt-right' class="open-menu" x-show="!Menu" @click="Menu = true"></box-icon>
                 </div>
             </div>
         </div>
     </nav>
 
     {{-- Navbar Menu --}}
-    <div class="w-full h-screen fixed z-20 bg-gray-900 dark:bg-gray-50" x-show="Menu" data-aos="fade-right">
+    <div class="nav-menu" x-show="Menu" data-aos="fade-right">
         <div class="absolute z-10 w-full">
             <div class="h-14 md:h-20 flex items-center justify-between">
                 <div>{{-- left element of flex --}}</div>
-                <div class="mr-6 md:mr-20 lg:mr-40 xl:mr-60 flex items-center justify-center cursor-pointer" @click="Menu = !Menu">
-                    <box-icon name='x' class="fill-current h-10 w-10 text-gray-50 dark:text-gray-900"></box-icon>
+                <div id="CloseMenu" class="mr-6 md:mr-20 lg:mr-40 xl:mr-60 flex items-center justify-center cursor-pointer" @click="Menu = !Menu">
+                    <box-icon name='x' class="fill-current h-10 w-10 text-gray-50 dark:text-gray-900 hover:text-pink-900 dark:hover:text-pink-900 transition duration-1000"></box-icon>
                 </div>
             </div>
         </div>

@@ -16,7 +16,15 @@
 @layer components {
 
     .theme {
-        @apply fill-current h-8 w-8 absolute text-gray-900 dark:text-gray-100;
+        @apply fill-current h-8 w-8 absolute text-gray-900 dark:text-gray-50 hover:animate-pulse transition duration-1000;
+    }
+
+    .open-menu {
+        @apply fill-current h-10 w-10 cursor-pointer hover:text-pink-900 dark:hover:text-pink-900 text-gray-900 dark:text-gray-100 transition duration-1000;
+    }
+
+    .nav-menu {
+        @apply w-full h-screen fixed z-20 bg-gray-900 dark:bg-gray-50;
     }
 
     .nav-link {

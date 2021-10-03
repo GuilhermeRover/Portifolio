@@ -38,7 +38,7 @@
                 easing: 'easeOutExpo',
             })
             .add({
-                targets: '.navbar',
+                targets: '.nav-target',
                 width: [ '0px', '100%' ],
             })
             .add({
@@ -92,6 +92,32 @@
                     })
                 })
             })
+
+            var OpenMenu = document.querySelector('.open-menu');
+            var CloseMenu = document.querySelector('#CloseMenu');
+
+            OpenMenu.addEventListener('click', () => {
+                anime.timeline({
+                    easing: 'easeInOutExpo',
+                })
+                .add({
+                    targets: '.nav-menu',
+                    translateX: ['100%', 0],
+                    direction: 'reverse',
+                    duration: 500,
+                })
+                .add({
+                    targets: '.menu div, .footer-menu',
+                    opacity: [0, 1],
+                    translateX: [100, 0],
+                    direction: 'reverse',
+                    duration: 1000,
+                })
+            })
+
+            //CloseMenu.addEventListener('click', () => {
+            //    anime.
+            //})
         });
     </script>
 
