@@ -1,6 +1,18 @@
+[x-cloak] {
+  display: none;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+input:invalid, textarea:invalid, select:invalid {
+  box-shadow: none;
+}
 
 .headroom {
     will-change: transform;
@@ -15,32 +27,57 @@
 
 @layer components {
 
-    .theme {
-        @apply fill-current h-8 w-8 absolute text-gray-900 dark:text-gray-50 hover:animate-pulse transition duration-1000;
-    }
-
-    .open-menu {
-        @apply fill-current h-10 w-10 cursor-pointer hover:text-pink-900 dark:hover:text-pink-900 text-gray-900 dark:text-gray-100 transition duration-1000;
-    }
-
-    .nav-menu {
-        @apply w-full h-screen fixed z-20 bg-gray-900 dark:bg-gray-50;
-    }
-
-    .nav-link {
-        @apply mt-4 flex items-center justify-center text-4xl md:text-5xl lg:text-7xl text-gray-50 dark:text-gray-900;
-    }
-
-    .menu {
-        @apply flex items-center justify-center absolute h-full w-full;
-    }
-
     .text-menu {
-        @apply text-center font-light text-sm text-gray-50 dark:text-gray-900;
+        @apply text-center font-light text-sm text-baseDark dark:text-baseLight-light;
     }
 
-    .footer-menu {
-        @apply fixed bottom-0 w-screen mb-5 h-10 flex items-center justify-center;
+    .toggle-theme {
+        @apply transition duration-500;
     }
 
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(000, 000, 000, 0,5);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #510D0A;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #360907;
+  }
+
+.decoration-social:hover {
+	background: linear-gradient(-45deg, #E5DADA, #E59500, #510D0A, #02040F);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+.decoration-title {
+	background: linear-gradient(-45deg, #E5DADA, #E59500, #510D0A, #02040F);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
