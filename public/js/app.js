@@ -6591,20 +6591,18 @@ module.exports = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var animejs_lib_anime_es__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! animejs/lib/anime.es */ "./node_modules/animejs/lib/anime.es.js");
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js"); // Timer with Date-fns
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js"); // anime.js
 
 
-if (!(document.getElementsByClassName("dataTime").length === 0)) {
-  setInterval(function () {
-    var time = format(new Date(), 'dd/MM/yyyy HH:mm:ss');
-    document.getElementsByClassName("dataTime")[0].innerHTML = time;
-    document.getElementsByClassName("dataTime")[1].innerHTML = time;
-  }, 1000);
-}
 
-; // anime.js
-
-
+var navLinks = document.querySelectorAll('.nav-link');
+var OpenMenu = document.querySelector('.open-menu');
+var aboutBtn = document.querySelector('.aboutBtn');
+var titleKnowledge = document.querySelector('.title-knowledge');
+var descriptionKnowledge1 = document.querySelector('.description-knowledge1');
+var descriptionKnowledge2 = document.querySelector('.description-knowledge2');
+var timeKnowledge = document.querySelector('.time-knowledge');
+var codeIcons = document.querySelectorAll('.codeIcons');
 animejs_lib_anime_es__WEBPACK_IMPORTED_MODULE_0__["default"].timeline({
   easing: 'easeOutExpo'
 }).add({
@@ -6629,7 +6627,6 @@ animejs_lib_anime_es__WEBPACK_IMPORTED_MODULE_0__["default"].timeline({
   translateY: [-100, 0],
   delay: 2200
 });
-var navLinks = document.querySelectorAll('.nav-link');
 navLinks.forEach(function (navLink) {
   navLink.addEventListener('mouseenter', function () {
     var letter = navLink.querySelectorAll('.letter');
@@ -6654,7 +6651,6 @@ navLinks.forEach(function (navLink) {
     });
   });
 });
-var OpenMenu = document.querySelector('.open-menu');
 OpenMenu.addEventListener('click', function () {
   animejs_lib_anime_es__WEBPACK_IMPORTED_MODULE_0__["default"].timeline({
     easing: 'easeInOutExpo'
@@ -6691,7 +6687,6 @@ OpenMenu.addEventListener('click', function () {
     duration: 400
   });
 });
-var aboutBtn = document.querySelector('.aboutBtn');
 aboutBtn.addEventListener('mouseenter', function () {
   animejs_lib_anime_es__WEBPACK_IMPORTED_MODULE_0__["default"].timeline({
     targets: '.about-icon',
@@ -6725,25 +6720,16 @@ aboutBtn.addEventListener('mouseout', function () {
   direction: 'alternate',
   duration: 600
 });
-var codeIcons = document.querySelectorAll('.codeIcons');
 codeIcons.forEach(function (codeIcon) {
   codeIcon.children[1].classList.add('hidden');
 });
-var titleKnowledge = document.querySelector('.title-knowledge');
-var descriptionKnowledge1 = document.querySelector('.description-knowledge1');
-var descriptionKnowledge2 = document.querySelector('.description-knowledge2');
-var timeKnowledge = document.querySelector('.time-knowledge');
-var content = '';
 codeIcons.forEach(function (codeIcon) {
-  console.log(codeIcon.children[1].classList[0]);
   codeIcon.children[0].addEventListener('mouseenter', function () {
-    var textIcons = codeIcon.querySelectorAll('.textIcons');
     codeIcon.children[1].classList.remove('hidden');
     codeIcon.children[1].classList.add('block');
 
     switch (codeIcon.children[1].classList[0]) {
       case 'git':
-        //console.log("É git");
         titleKnowledge.innerHTML = 'GIT';
         content = 'É uma tecnologia que possibilita a gestão das versões de um projeto no início, no fim e após o lançamento. Também possibilita o trabalho em equipe que trabalha em arquivos que precisam um do outro, fazendo que os membros da equipe tenham os arquivos sempre atualizados com o trabalho do colega.';
         descriptionKnowledge1.innerHTML = content;
@@ -6869,7 +6855,6 @@ codeIcons.forEach(function (codeIcon) {
     codeIcon.children[1].classList.remove('block');
     codeIcon.children[1].classList.add('hidden'); //knowledge.classList.remove('hidden');
 
-    var textIcons = codeIcon.querySelectorAll('.textIcons');
     titleKnowledge.innerHTML = 'Veja as tecnologias que eu conheço.';
     descriptionKnowledge1.innerHTML = 'Clique em algum ícone para ver mais.';
     descriptionKnowledge2.innerHTML = 'Passe o mouse sobre algum ícone para ver mais.';

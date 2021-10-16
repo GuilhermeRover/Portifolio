@@ -1,17 +1,17 @@
 require('./bootstrap');
 
-// Timer with Date-fns
-if (!(document.getElementsByClassName("dataTime").length === 0)) {
-    setInterval(() => {
-        let time = format( new Date(), 'dd/MM/yyyy HH:mm:ss')
-        document.getElementsByClassName("dataTime")[0].innerHTML = time;
-        document.getElementsByClassName("dataTime")[1].innerHTML = time;
-    }, 1000);
-};
-
 // anime.js
 import anime from 'animejs/lib/anime.es';
     
+    var navLinks = document.querySelectorAll('.nav-link');
+    var OpenMenu = document.querySelector('.open-menu');
+    var aboutBtn = document.querySelector('.aboutBtn');
+    var titleKnowledge = document.querySelector('.title-knowledge');
+    var descriptionKnowledge1 = document.querySelector('.description-knowledge1');
+    var descriptionKnowledge2 = document.querySelector('.description-knowledge2');
+    var timeKnowledge = document.querySelector('.time-knowledge');
+    var codeIcons = document.querySelectorAll('.codeIcons');
+
     anime.timeline({
         easing: 'easeOutExpo',
     })
@@ -41,12 +41,9 @@ import anime from 'animejs/lib/anime.es';
         delay: 2200,
     });
 
-    var navLinks = document.querySelectorAll('.nav-link');
-
     navLinks.forEach((navLink) => {
         navLink.addEventListener('mouseenter', () => {
 
-            
             var letter = navLink.querySelectorAll('.letter');
 
             anime.timeline({
@@ -68,8 +65,6 @@ import anime from 'animejs/lib/anime.es';
             })
         })
     });
-
-    var OpenMenu = document.querySelector('.open-menu');
 
     OpenMenu.addEventListener('click', () => {
         anime.timeline({
@@ -113,7 +108,6 @@ import anime from 'animejs/lib/anime.es';
         })
     });
     
-    var aboutBtn = document.querySelector('.aboutBtn');
     aboutBtn.addEventListener('mouseenter', () => {
         anime.timeline({
             targets: '.about-icon',
@@ -128,6 +122,7 @@ import anime from 'animejs/lib/anime.es';
             offset: '-=400',
         })
     })
+
     aboutBtn.addEventListener('mouseout', () => {
         anime.timeline({
             targets: '.about-text',
@@ -151,32 +146,20 @@ import anime from 'animejs/lib/anime.es';
         duration: 600,
     });
 
-    var codeIcons = document.querySelectorAll('.codeIcons');
-
     codeIcons.forEach((codeIcon) => {
         codeIcon.children[1].classList.add('hidden');
     });
 
-    var titleKnowledge = document.querySelector('.title-knowledge');
-    var descriptionKnowledge1 = document.querySelector('.description-knowledge1');
-    var descriptionKnowledge2 = document.querySelector('.description-knowledge2');
-    var timeKnowledge = document.querySelector('.time-knowledge');
-    var content = '';
+    
 
     codeIcons.forEach((codeIcon) => {
-        console.log(codeIcon.children[1].classList[0]);
-
         codeIcon.children[0].addEventListener('mouseenter', () => {
-            var textIcons = codeIcon.querySelectorAll('.textIcons');
 
             codeIcon.children[1].classList.remove('hidden');
             codeIcon.children[1].classList.add('block');
 
-
-            
             switch(codeIcon.children[1].classList[0]) {
             case 'git':
-                //console.log("É git");
                 titleKnowledge.innerHTML= 'GIT';
                 content = 'É uma tecnologia que possibilita a gestão das versões de um projeto no início, no fim e após o lançamento. Também possibilita o trabalho em equipe que trabalha em arquivos que precisam um do outro, fazendo que os membros da equipe tenham os arquivos sempre atualizados com o trabalho do colega.';
                 descriptionKnowledge1.innerHTML= content;
@@ -290,8 +273,6 @@ import anime from 'animejs/lib/anime.es';
             codeIcon.children[1].classList.add('hidden');
             //knowledge.classList.remove('hidden');
 
-            var textIcons = codeIcon.querySelectorAll('.textIcons');
-
             titleKnowledge.innerHTML = 'Veja as tecnologias que eu conheço.';
             descriptionKnowledge1.innerHTML = 'Clique em algum ícone para ver mais.';
             descriptionKnowledge2.innerHTML = 'Passe o mouse sobre algum ícone para ver mais.';
@@ -299,5 +280,3 @@ import anime from 'animejs/lib/anime.es';
             
         })
     });
-
-
