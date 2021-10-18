@@ -99,7 +99,7 @@
                 </div>
             </div>
             <div class="description md:w-3/6">
-                <div class="absolute -top-10 mb-4 mx-10 text-4xl text-left font-semibold text-gray-700 dark:text-gray-200 toggle-theme" data-aos="fade-up">
+                <div class="absolute -top-10 mb-4 mx-10 text-3xl mini:text-4xl text-left font-semibold text-gray-700 dark:text-gray-200 toggle-theme" data-aos="fade-up">
                     Conhecimentos
                     <div class="w-full h-1 decoration-title">{{-- underline title decoration --}}</div>
                 </div>

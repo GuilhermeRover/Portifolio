@@ -22,8 +22,8 @@
                     </a>
                 </div>
             </div>
-            <div class="mini:hidden md:block" data-aos="fade-left">
-                <img class="w-96" src="{{ asset('images/Eu.png') }}" alt="Eu">
+            <div class="hidden md:block" data-aos="fade-left">
+                <img class="w-96" src="{{ asset('images/aboutMe.png') }}" alt="Eu">
             </div>
         </div>
     </section>

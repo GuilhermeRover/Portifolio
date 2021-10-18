@@ -13,20 +13,20 @@
                     <div class="m-4 flex items-center justify-center transform hover:scale-105 toggle-theme">
                         <div class="p-2">
                             <div class="">
-                                <img src="{{ asset('images/portfolio.png') }}" alt="" class="hidden md:block filter rounded-md brightness-25">
-                                <img src="{{ asset('images/portfolio_mobile.png') }}" alt="" class="md:hidden filter rounded-md brightness-25">
+                                <img src="{{ asset('images/portfolio.png') }}" alt="" class="hidden lg:block filter rounded-md brightness-25">
+                                <img src="{{ asset('images/portfolio_mobile.png') }}" alt="" class="lg:hidden filter rounded-md brightness-25">
                             </div>
                             <div class="flex items-center justify-center">
                                 <div class="absolute bottom-0 w-full h-full">
-                                    <div class="ml-10 md:ml-24 lg:ml-40 mt-5 md:mt-10 h-full flex items-center justify-start bg-transparent">
+                                    <div class="ml-5 mini:ml-10 md:ml-24 lg:ml-40 mt-5 md:mt-10 h-full flex items-center justify-start bg-transparent">
                                         <div class="">
-                                            <div class="text-3xl md:text-4xl text-gray-100" data-aos="fade-right">
+                                            <div class="text-xl mini:text-3xl md:text-4xl text-gray-100" data-aos="fade-right">
                                                 Portfolio Guilherme Rover
                                             </div>
-                                            <div class="mt-5 mb-5 w-5/6 text-lg md:text-xl text-gray-100" data-aos="fade-right">
+                                            <div class="mt-5 mb-5 w-5/6 text-base mini:text-lg md:text-xl text-gray-100" data-aos="fade-right">
                                                 Feito com a stack TALL, possui o intuito de apresentar uma breve introdução sobre mim e sobre o meu trabalho.
                                             </div>  
-                                            <a href="https://github.com/GuilhermeRover/Portifolio" class="w-5/6 p-2 rounded-md inline text-2xl border border-opacity-25 bg-baseDark dark:bg-baseLight text-secundary dark:text-secundary-dark toggle-theme" data-aos="fade-right">
+                                            <a href="https://github.com/GuilhermeRover/Portifolio" target="_blank" class="w-5/6 p-2 rounded-md inline text-xl mini:text-2xl border border-opacity-25 bg-baseDark dark:bg-baseLight text-secundary dark:text-secundary-dark toggle-theme" data-aos="fade-right">
                                                 Veja no Github
                                             </a>   
                                         </div>
@@ -40,20 +40,20 @@
                     <div class="m-4 flex items-center justify-center transform hover:scale-105 toggle-theme">
                         <div class="p-2">
                             <div class="">
-                                <img src="{{ asset('images/pratice_test.png') }}" alt="" class="hidden md:block filter rounded-md brightness-25">
-                                <img src="{{ asset('images/pratice_test_mobile.png') }}" alt="" class="md:hidden filter rounded-md brightness-25">
+                                <img src="{{ asset('images/pratice_test.png') }}" alt="" class="hidden lg:block filter rounded-md brightness-25">
+                                <img src="{{ asset('images/pratice_test_mobile.png') }}" alt="" class="lg:hidden filter rounded-md brightness-25">
                             </div>
                             <div class="flex items-center justify-center">
                                 <div class="absolute bottom-0 w-full h-full">
-                                    <div class="ml-10 md:ml-24 lg:ml-40 mt-5 md:mt-10 h-full flex items-center justify-start bg-transparent">
+                                    <div class="ml-5 mini:ml-10 md:ml-24 lg:ml-40 mt-5 md:mt-10 h-full flex items-center justify-start bg-transparent">
                                         <div class="">
-                                            <div class="text-3xl md:text-4xl text-gray-100" data-aos="fade-right">
+                                            <div class="text-xl mini:text-3xl md:text-4xl text-gray-100" data-aos="fade-right">
                                                 Painel administrativo
                                             </div>
-                                            <div class="mt-5 mb-5 w-5/6 text-lg md:text-xl text-gray-100" data-aos="fade-right">
+                                            <div class="mt-5 mb-5 w-5/6 text-base mini:text-lg md:text-xl text-gray-100" data-aos="fade-right">
                                                 É uma aplicação feita com framework Laravel simulando um painel administrativo com cadastro de clientes.
                                             </div>  
-                                            <a href="https://github.com/GuilhermeRover/teste-pratico-laravel" class="w-5/6 p-2 rounded-md inline text-2xl border border-opacity-25 bg-baseDark dark:bg-baseLight text-secundary dark:text-secundary-dark toggle-theme" data-aos="fade-right">
+                                            <a href="https://github.com/GuilhermeRover/teste-pratico-laravel" target="_blank" class="w-5/6 p-2 rounded-md inline text-xl mini:text-2xl border border-opacity-25 bg-baseDark dark:bg-baseLight text-secundary dark:text-secundary-dark toggle-theme" data-aos="fade-right">
                                                 Veja no Github
                                             </a>   
                                         </div>
@@ -67,20 +67,20 @@
                     <div class="m-4 flex items-center justify-center transform hover:scale-105 toggle-theme">
                         <div class="p-2">
                             <div class="">
-                                <img src="{{ asset('images/next_project.png') }}" alt="" class="hidden md:block filter rounded-md brightness-25">
-                                <img src="{{ asset('images/next_project_mobile.png') }}" alt="" class="md:hidden filter rounded-md brightness-25">
+                                <img src="{{ asset('images/next_project.png') }}" alt="" class="hidden lg:block filter rounded-md brightness-25">
+                                <img src="{{ asset('images/next_project_mobile.png') }}" alt="" class="lg:hidden filter rounded-md brightness-25">
                             </div>
                             <div class="flex items-center justify-center">
                                 <div class="absolute bottom-0 w-full h-full">
-                                    <div class="ml-10 md:ml-24 lg:ml-40 mt-5 md:mt-10 h-full flex items-center justify-start bg-transparent">
+                                    <div class="ml-5 mini:ml-10 md:ml-24 lg:ml-40 mt-5 md:mt-10 h-full flex items-center justify-start bg-transparent">
                                         <div class="">
-                                            <div class="text-3xl md:text-4xl text-gray-100" data-aos="fade-right">
+                                            <div class="text-xl mini:text-3xl md:text-4xl text-gray-100" data-aos="fade-right">
                                                 Gestor empresarial
                                             </div>
-                                            <div class="mt-5 mb-5 w-5/6 text-lg md:text-xl text-gray-100" data-aos="fade-right">
+                                            <div class="mt-5 mb-5 w-5/6 text-base mini:text-lg md:text-xl text-gray-100" data-aos="fade-right">
                                                 Um gestor empresarial que, por meio de uma interface fluída e dinâmica, a empresa além de gerir melhor, vai obter novas perpectivas do próprio negócio.
                                             </div>  
-                                            <div class="opacity-80 w-5/6 p-2 rounded-md inline text-2xl border border-opacity-25 bg-baseDark dark:bg-baseLight text-secundary dark:text-secundary-dark toggle-theme" data-aos="fade-right">
+                                            <div class="opacity-80 w-5/6 p-2 rounded-md inline text-xl mini:text-2xl border border-opacity-25 bg-baseDark dark:bg-baseLight text-secundary dark:text-secundary-dark toggle-theme" data-aos="fade-right">
                                                 Em breve
                                             </div>   
                                         </div>
@@ -94,20 +94,20 @@
                     <div class="m-4 flex items-center justify-center transform hover:scale-105 toggle-theme">
                         <div class="p-2">
                             <div class="">
-                                <img src="{{ asset('images/next_project.png') }}" alt="" class="hidden md:block filter rounded-md brightness-25">
-                                <img src="{{ asset('images/next_project_mobile.png') }}" alt="" class="md:hidden filter rounded-md brightness-25">
+                                <img src="{{ asset('images/next_project.png') }}" alt="" class="hidden lg:block filter rounded-md brightness-25">
+                                <img src="{{ asset('images/next_project_mobile.png') }}" alt="" class="lg:hidden filter rounded-md brightness-25">
                             </div>
                             <div class="flex items-center justify-center">
                                 <div class="absolute bottom-0 w-full h-full">
-                                    <div class="ml-10 md:ml-24 lg:ml-40 mt-5 md:mt-10 h-full flex items-center justify-start bg-transparent">
+                                    <div class="ml-5 mini:ml-10 md:ml-24 lg:ml-40 mt-5 md:mt-10 h-full flex items-center justify-start bg-transparent">
                                         <div class="">
-                                            <div class="text-3xl md:text-4xl text-gray-100 toggle-theme" data-aos="fade-right">
+                                            <div class="text-xl mini:text-3xl md:text-4xl text-gray-100 toggle-theme" data-aos="fade-right">
                                                 Outros projetos
                                             </div>
-                                            <div class="mt-5 mb-5 w-5/6 text-lg md:text-xl text-gray-100 toggle-theme" data-aos="fade-right">
+                                            <div class="mt-5 mb-5 w-5/6 text-base mini:text-lg md:text-xl text-gray-100 toggle-theme" data-aos="fade-right">
                                                 Recline sua cadeira e aguarde, estamos criando algo incrível!
                                             </div>  
-                                            <div class="opacity-80 w-5/6 p-2 rounded-md inline text-2xl border border-opacity-25 bg-baseDark dark:bg-baseLight text-secundary dark:text-secundary-dark toggle-theme" data-aos="fade-right">
+                                            <div class="opacity-80 w-5/6 p-2 rounded-md inline text-xl mini:text-2xl border border-opacity-25 bg-baseDark dark:bg-baseLight text-secundary dark:text-secundary-dark toggle-theme" data-aos="fade-right">
                                                 Em breve
                                             </div>   
                                         </div>
