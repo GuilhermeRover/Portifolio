@@ -112,7 +112,7 @@
                 <div class="hidden md:block description-knowledge2 px-5 text-lg text-gray-700 dark:text-gray-200 toggle-theme" data-aos="fade-right">
                     Passe o mouse sobre algum ícone para ver mais.
                 </div>
-                <div class="hidden md:block time-knowledge px-5 mt-10 text-lg text-gray-700 dark:text-gray-200 toggle-theme" data-aos="fade-right">{{-- JS content --}}</div>
+                <div class="time-knowledge px-5 mt-10 text-lg text-gray-700 dark:text-gray-200 toggle-theme" data-aos="fade-right">{{-- JS content --}}</div>
             </div>
         </div>
     </section>

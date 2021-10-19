@@ -108,7 +108,7 @@
                         <a href="https://www.linkedin.com/in/eder-guilherme-90b216140/" target="_blank" class="block mt-10 mx-2 p-2 shadow-md rounded-md cursor-pointer text-gray-600 dark:text-gray-400 decoration-social toggle-theme">
                             <box-icon type='logo' name='linkedin' class="fill-current h-10 w-10"></box-icon>
                         </a>
-                        <a href="https://www.instagram.com/eder_guilherme1/" target="_blank" class="block mt-10 mx-2 p-2 shadow-md rounded-md cursor-pointer text-gray-600 dark:text-gray-400 decoration-social toggle-theme">
+                        <a href="https://www.instagram.com/guilherme_rover/" target="_blank" class="block mt-10 mx-2 p-2 shadow-md rounded-md cursor-pointer text-gray-600 dark:text-gray-400 decoration-social toggle-theme">
                             <box-icon name='instagram' type='logo' class="fill-current h-10 w-10"></box-icon>
                         </a>
                         {{-- https://wa.me/5516991321027?text=Oii%20Guilherme,%20vim%20pelo%20seu%20portifólio --}}

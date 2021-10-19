@@ -19,7 +19,7 @@
                     Whatsapp
                 </div>
             </a>
-            <a href="https://www.instagram.com/eder_guilherme1/" class="mb-4 md:mx-10 text-xl text-left font-semibold cursor-pointer text-gray-700 dark:text-gray-400 hover:text-gray-900 dark:hover:text-red-50 toggle-theme">
+            <a href="https://www.instagram.com/guilherme_rover/" class="mb-4 md:mx-10 text-xl text-left font-semibold cursor-pointer text-gray-700 dark:text-gray-400 hover:text-gray-900 dark:hover:text-red-50 toggle-theme">
                 <box-icon name='instagram' type='logo' class="fill-current md:hidden mx-4 h-10 w-10"></box-icon>
                 <div class="hidden md:block">
                     Instagram
