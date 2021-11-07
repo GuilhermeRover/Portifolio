@@ -182,7 +182,7 @@ import anime from 'animejs/lib/anime.es';
                 break;
             case 'mysql':
                 titleKnowledge.innerHTML= 'MySql';
-                var content = 'É um sistema de gestão de banco de dados. Simplificando, um banco de dados nada mais é que um aglomerado de arquivos com certos dados em cada um, e o MySql nada mais é do que um gerenciador de arquivos como este, porém utilizando da linguagem SQL para escrever esses arquivos.';
+                var content = 'É um sistema de gestão de banco de dados. Simplificando, um banco de dados nada mais é que um aglomerado de arquivos com certos dados em cada um, e o MySql nada mais é do que o gerenciador desses arquivos, porém utilizando da linguagem SQL para criar, alterar, ler e apagar esses arquivos.';
                 descriptionKnowledge1.innerHTML= content;
                 descriptionKnowledge2.innerHTML= content;
                 timeKnowledge.innerHTML= '1 ano e 6 meses de experiência';
@@ -210,7 +210,7 @@ import anime from 'animejs/lib/anime.es';
                 break;
             case 'tailwindcss':
                 titleKnowledge.innerHTML= 'Tailwind CSS';
-                var content = 'É uma biblioteca CSS diferente das demais do mercado. O Tailwind CSS utiliza o conceito de "css utilitário", onde por meio de classes, são denominadas todas as funções do css, possibilitando que você tenha maior controle do seu design e reduza a quantidade de arquivos css, consequentemente diminuindo a quantidade de requisições http. Além disso, possui o conceito "mobile first" que eu considero essencial nos dias de hoje, já que no Brasil cerca de 80% das pessoas acima de 10 anos de idade possui um celular, sendo encontrado em 99,5% dos domicílios com acesso a internet. Já o computador existe em 45% das residências com acesso a internet.';
+                var content = 'É uma biblioteca CSS diferente das demais do mercado. O Tailwind CSS utiliza o conceito de "css utilitário", onde por meio de classes, são denominadas todas as funções do css, possibilitando que você tenha maior controle do seu design e reduza a quantidade de arquivos css, consequentemente diminuindo a quantidade de requisições http. Além disso, possui o conceito "mobile first" que eu considero essencial nos dias de hoje, já que no Brasil cerca de 80% das pessoas acima de 10 anos de idade possui um celular, sendo encontrado em 99,5% dos domicílios com acesso a internet. Já o computador existe em apenas 45% das residências com acesso a internet.';
                 descriptionKnowledge1.innerHTML= content;
                 descriptionKnowledge2.innerHTML= content;
                 timeKnowledge.innerHTML= '1 e 2 meses de experiência';
@@ -245,7 +245,7 @@ import anime from 'animejs/lib/anime.es';
                 break;
             case 'laravel':
                 titleKnowledge.innerHTML= 'Laravel';
-                var content = 'É um framework que utiliza o php para gerar toda a estrutura necessária para manter um projeto seguro, estruturado e prático, facilitando e agilizando muito o desenvolvimento de um novo projeto(não pode ser usado em projetos já existentes). O Laravel é uma inspiração para outros frameworks de outras linguagens de programação por ser muito bem construído e de fácil utilização.';
+                var content = 'É um framework fullstack que utiliza o php para gerar toda a estrutura necessária para manter um projeto seguro, estruturado e prático, facilitando e agilizando muito o desenvolvimento de um novo projeto(não pode ser usado em projetos já existentes). O Laravel é uma inspiração para outros frameworks de outras linguagens de programação por ser muito bem construído e de fácil utilização.';
                 descriptionKnowledge1.innerHTML= content;
                 descriptionKnowledge2.innerHTML= content;
                 timeKnowledge.innerHTML= '1 e 2 meses de experiência';

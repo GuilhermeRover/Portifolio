@@ -8,8 +8,8 @@
                 </div>
                 <div class="mr-6 md:mr-20 lg:mr-40 xl:mr-60 flex items-center justify-center">
                     <div class="nav-btn flex items-center justify-center mr-10 cursor-pointer" @click="dark = !dark, change()">
-                        <box-icon name='sun' class="fill-current h-8 w-8 absolute text-gray-100 hover:animate-pulse toggle-theme" x-show="dark" x-transition.duration.300ms></box-icon>
-                        <box-icon name='moon' class="fill-current h-8 w-8 absolute text-gray-800 hover:animate-pulse toggle-theme" x-show="!dark" x-transition.duration.300ms></box-icon>
+                        <box-icon id="sun" name='sun' class="fill-current h-8 w-8 absolute text-gray-100 hover:animate-pulse toggle-theme" x-show="dark" x-transition.duration.300ms></box-icon>
+                        <box-icon id="moon" name='moon' class="fill-current h-8 w-8 absolute text-gray-800 hover:animate-pulse toggle-theme" x-show="!dark" x-transition.duration.300ms></box-icon>
                     </div>
                     <box-icon name='menu-alt-right' class="open-menu fill-current h-10 w-10 cursor-pointer text-gray-900 dark:text-gray-50 hover:text-primary dark:hover:text-primary toggle-theme" @click="Menu = true"></box-icon>
                 </div>
