@@ -105,7 +105,7 @@
                 </div>
                 <div class="lg:absolute lg:top-0 lg:right-20 lg:h-full lg:flex lg:items-center lg:justify-center">
                     <div class="mini:mt-5 lg:mt-0 flex items-center justify-center lg:block">
-                        <a href="https://www.linkedin.com/in/eder-guilherme-90b216140/" target="_blank" class="block mt-10 mx-2 p-2 shadow-md rounded-md cursor-pointer text-gray-600 dark:text-gray-400 decoration-social toggle-theme">
+                        <a href="https://linkedin.com/in/eder-guilherme-rover-90b216140" target="_blank" class="block mt-10 mx-2 p-2 shadow-md rounded-md cursor-pointer text-gray-600 dark:text-gray-400 decoration-social toggle-theme">
                             <box-icon type='logo' name='linkedin' class="fill-current h-10 w-10"></box-icon>
                         </a>
                         <a href="https://www.instagram.com/guilherme_rover/" target="_blank" class="block mt-10 mx-2 p-2 shadow-md rounded-md cursor-pointer text-gray-600 dark:text-gray-400 decoration-social toggle-theme">

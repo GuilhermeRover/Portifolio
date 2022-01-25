@@ -13,25 +13,25 @@
             </div>
         </div>
         <div class="mt-14 flex items-center justify-center">
-            <a href="https://bit.ly/3Bz55WJ" class="mb-4 md:mx-10 text-xl text-left font-semibold cursor-pointer text-gray-700 dark:text-gray-400 hover:text-gray-900 dark:hover:text-red-50 toggle-theme">
+            <a href="https://bit.ly/3Bz55WJ" target="_blank" class="mb-4 md:mx-10 text-xl text-left font-semibold cursor-pointer text-gray-700 dark:text-gray-400 hover:text-gray-900 dark:hover:text-red-50 toggle-theme">
                 <box-icon name='whatsapp' type='logo' class="fill-current md:hidden h-10 w-10"></box-icon>
                 <div class="hidden md:block">
                     Whatsapp
                 </div>
             </a>
-            <a href="https://www.instagram.com/guilherme_rover/" class="mb-4 md:mx-10 text-xl text-left font-semibold cursor-pointer text-gray-700 dark:text-gray-400 hover:text-gray-900 dark:hover:text-red-50 toggle-theme">
+            <a href="https://www.instagram.com/guilherme_rover/" target="_blank" class="mb-4 md:mx-10 text-xl text-left font-semibold cursor-pointer text-gray-700 dark:text-gray-400 hover:text-gray-900 dark:hover:text-red-50 toggle-theme">
                 <box-icon name='instagram' type='logo' class="fill-current md:hidden mx-4 h-10 w-10"></box-icon>
                 <div class="hidden md:block">
                     Instagram
                 </div>
             </a>
-            <a href="https://www.linkedin.com/in/eder-guilherme-90b216140/" class="mb-4 md:mx-10 text-xl text-left font-semibold cursor-pointer text-gray-700 dark:text-gray-400 hover:text-gray-900 dark:hover:text-red-50 toggle-theme">
+            <a href="https://linkedin.com/in/eder-guilherme-rover-90b216140" target="_blank" class="mb-4 md:mx-10 text-xl text-left font-semibold cursor-pointer text-gray-700 dark:text-gray-400 hover:text-gray-900 dark:hover:text-red-50 toggle-theme">
                 <box-icon name='linkedin' type='logo' class="fill-current md:hidden mr-4 h-10 w-10"></box-icon>
                 <div class="hidden md:block">
                     linkedin
                 </div>
             </a>
-            <a href="https://github.com/GuilhermeRover" class="mb-4 md:mx-10 text-xl text-left font-semibold cursor-pointer text-gray-700 dark:text-gray-400 hover:text-gray-900 dark:hover:text-red-50 toggle-theme">
+            <a href="https://github.com/GuilhermeRover" target="_blank" class="mb-4 md:mx-10 text-xl text-left font-semibold cursor-pointer text-gray-700 dark:text-gray-400 hover:text-gray-900 dark:hover:text-red-50 toggle-theme">
                 <box-icon type='logo' name='github' class="fill-current md:hidden h-10 w-10"></box-icon>
                 <div class="hidden md:block">
                     Github
